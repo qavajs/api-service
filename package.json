@@ -1,7 +1,7 @@
 {
   "name": "@qavajs/api-service",
   "version": "0.0.1",
-  "description": "server requests(http, webscoket, soap) for @qavajs project",
+  "description": "server requests(http, websocket, soap) for @qavajs project",
   "scripts": {
     "build": "tsc",
     "lint:write": "npm run pretty && eslint ./ --fix",
@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qavajs/steps-api/issues"
+    "url": "https://github.com/qavajs/api-service/issues"
   },
   "homepage": "https://github.com/qavajs/api-service#readme",
   "devDependencies": {
