@@ -1,7 +1,7 @@
 {
   "name": "@qavajs/api-service",
   "version": "0.0.4",
-  "description": "api steps for @qavajs project",
+  "description": "server requests(http, webscoket, soap) for @qavajs project",
   "scripts": {
     "build": "tsc",
     "lint:write": "npm run pretty && eslint ./ --fix",
