@@ -8,7 +8,7 @@
     "node_modules"
   ],
   "compilerOptions": {
-    "baseUrl": ".", 
+    "baseUrl": ".",
     "target": "esnext",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -33,11 +33,8 @@
       "es2020.string"
     ],
     "types": [
-      "chai",
       "node",
-      "node-fetch",
-      "@qavajs/memory",
-      "@qavajs/validation"
+      "node-fetch"
     ]
   }
 }

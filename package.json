@@ -1,6 +1,6 @@
 {
   "name": "@qavajs/api-service",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "server requests(http, webscoket, soap) for @qavajs project",
   "scripts": {
     "build": "tsc",
