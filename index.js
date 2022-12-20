@@ -1,2 +1,2 @@
 /* eslint-disable import/no-unresolved */
-require("./lib/httpRequest.js");
+require('./lib/httpRequest.js');
