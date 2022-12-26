@@ -8,10 +8,10 @@ import WebSocket from 'ws';
  */
 
 async function sendWebsocketMessage(url: string, sendData: unknown): Promise<void> {
-    const ws: WebSocket = new WebSocket(url);
-    ws.on('open', () => {
-        ws.send(sendData);
-    });
+  const ws: WebSocket = new WebSocket(url);
+  ws.on('open', () => {
+    ws.send(sendData);
+  });
 }
 
 export { sendWebsocketMessage };
