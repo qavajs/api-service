@@ -4,4 +4,5 @@ This is a core package to get basic server requests with different protocols and
 # How to use 
 ```javascript
 import { sendHttpRequest } from '@qavajs/api-service';
+import { sendWebsocketMessage} from '@qavajs/api-service';
 ```
