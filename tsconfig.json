@@ -34,7 +34,8 @@
     ],
     "types": [
       "node",
-      "node-fetch"
+      "node-fetch",
+      "jest"
     ]
   }
 }
