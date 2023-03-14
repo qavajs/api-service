@@ -7,7 +7,7 @@ import fetch, { RequestInit, Response } from 'node-fetch';
  * @param {RequestInit} params - Object with all needed properties for request
  * @returns {Response} response - response object with payload variable as parsed JSON response body
  */
-async function sendHttpRequest(url: string, params: RequestInit): Promise<unknown> {
+async function sendHttpRequest(url: string, params: RequestInit): Promise<Response> {
   const conf = {
     headers: {
       'Content-Type': 'application/json',
@@ -15,10 +15,7 @@ async function sendHttpRequest(url: string, params: RequestInit): Promise<unknow
     ...params,
   };
   const response: Response = await fetch(url, conf);
-  const responseBodyPayload = { payload: await response.json() };
-  const updatedResponse = Object.assign(response, responseBodyPayload);
-
-  return updatedResponse;
+  return response;
 }
 
 export { sendHttpRequest };
