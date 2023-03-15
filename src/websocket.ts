@@ -7,7 +7,7 @@ import WebSocket from 'ws';
  * @param {unknown} sendData - message that should be sent to a requested url
  */
 
-async function sendWebsocketMessage(url: string, sendData: unknown): Promise<void> {
+async function sendWebsocketMessage(url: string, sendData: Buffer): Promise<void> {
   const ws: WebSocket = new WebSocket(url);
   ws.on('open', () => {
     ws.send(sendData);

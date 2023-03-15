@@ -1,6 +1,2 @@
-import { sendHttpRequest } from './src/httpRequest';
-import { sendWebsocketMessage } from './src/websocket';
-
-declare module '@qavajs/api-service' {
-  export { sendHttpRequest, sendWebsocketMessage };
-}
+export { sendHttpRequest } from './src/httpRequest';
+export { sendWebsocketMessage } from './src/websocket';
