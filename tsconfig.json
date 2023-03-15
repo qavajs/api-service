@@ -35,7 +35,7 @@
     "types": [
       "node",
       "node-fetch",
-      "jest"
+      "@types/jest"
     ]
   }
 }
