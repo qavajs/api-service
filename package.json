@@ -1,12 +1,13 @@
 {
   "name": "@qavajs/api-service",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "server requests(http, websocket, soap) for @qavajs project",
+  "main": "./index.js",
   "scripts": {
     "build": "tsc",
     "lint:write": "npm run pretty && eslint ./ --fix",
     "pretty": "prettier --write ./",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "husky": {
     "hooks": {

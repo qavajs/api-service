@@ -1,6 +1,8 @@
 /* eslint @typescript-eslint/no-var-requires: "off" */
-const httpRequest = require('./lib/httpRequest.js');
-const webSocketSendData = require('./lib/websocket.js');
+const { sendHttpRequest } = require('./lib/httpRequest');
+const { sendWebsocketMessage } = require('./lib/websocket');
 
-module.exports = { httpRequest };
-module.exports = { webSocketSendData };
+module.exports = {
+  sendHttpRequest,
+  sendWebsocketMessage,
+};

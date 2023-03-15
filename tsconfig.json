@@ -3,12 +3,11 @@
     "src/**/*.ts"
   ],
   "exclude": [
-    "test/**/*.spec.ts",
+    "src/test/**/*.test.ts",
     "lib",
     "node_modules"
   ],
   "compilerOptions": {
-    "baseUrl": ".",
     "target": "esnext",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -17,13 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "sourceMap": true,
-    "experimentalDecorators": true,
-    "resolveJsonModule": true,
-    "pretty": true,
     "allowJs": true,
-    "checkJs": true,
-    "downlevelIteration": true,
     "lib": [
       "dom",
       "es2015",
@@ -35,7 +28,8 @@
     "types": [
       "node",
       "node-fetch",
-      "@types/jest"
+      "@types/jest",
+      "@types/ws"
     ]
   }
 }
